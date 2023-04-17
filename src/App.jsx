@@ -1,6 +1,6 @@
 import Formulario from './components/Formulario'
 import Header from './components/Header'
-import ListadoDePacientes from './components/LisdatoDePacientes'
+import ListadoDePacientes from './components/ListadoDePacientes'
 import './index.css'
 
 function App() {
@@ -9,11 +9,13 @@ const sumar= () => {
 }
 const resultado = sumar
   return (
-    <div class="container">
+    <div className="container mt-5 ">
     <Header/>
-    <h1>Ponderado</h1>
-    <ListadoDePacientes/> 
+    <div className='mt-10 md:flex'>
     <Formulario/>
+    <ListadoDePacientes/> 
+    
+    </div>
     </div>
   )
 }
