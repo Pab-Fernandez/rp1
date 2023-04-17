@@ -11,7 +11,7 @@ const resultado = sumar
   return (
     <div className="container mt-5 ">
     <Header/>
-    <div className='mt-10 md:flex'>
+    <div className='mt-10 flex'>
     <Formulario/>
     <ListadoDePacientes/> 
     
